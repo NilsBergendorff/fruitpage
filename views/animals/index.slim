@@ -1,0 +1,30 @@
+h1 UNDER KONSTRUKTION. STÖR EJ DJUREN GÅ TILLBAKA TILL FRUKTEN.
+
+form method="get" action="/animals"
+    input name="q" type="text" placeholder="Skriv ett djur"
+     input type="submit" value="sök"
+
+h1 Add your own animals!! 
+<a href="/animals/new">add</a>
+
+h2 Alla djur 
+
+- @databased.each do |animal|
+
+     h2 
+        a href="/animals/animal#{"id"}/edit"
+            
+
+        p Det finns #{animal["amount"]}
+
+
+
+
+h4 
+h5 liten sovande mus 🐁
+
+
+
+
+
+

@@ -16,6 +16,7 @@ fruits = [
   ['Äpple',10], 
   ['Banan',20], 
   ['Apelsin',30], 
+  ['Megafrukt',5], 
   ['Päron',40]
 ]
 
